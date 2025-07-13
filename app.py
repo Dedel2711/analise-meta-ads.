@@ -47,4 +47,3 @@ if uploaded_file:
     st.write("### 🔎 Insights gerados:")
     for insight in insights:
         st.write(insight)
-![andrew-kliatskyi-d3YXpAqdy2I-unsplash](https://github.com/user-attachments/assets/1f570828-138a-4d81-8a73-f690b48a970f)
