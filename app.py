@@ -100,7 +100,7 @@ st.title("IA Análise de Campanhas Meta Ads - Seguidores & Engajamento")
 uploaded_file = st.file_uploader("Faça upload do CSV das campanhas", type=["csv"])
 
 if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv(uploaded_file, encoding='latin1')
     st.write("### Dados carregados:")
     st.dataframe(df)
 
